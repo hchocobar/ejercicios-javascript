@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>funciones locales</title>
+</head>
+<body>
+	<p id="casa"></p>
+	<p id="casab"></p>
+	<script type="text/javascript">
+		prueba();
+
+		function prueba() {
+			var auto = "chevrolet";
+			document.getElementById("casa").innerHTML = typeof auto + " " + auto;
+		}
+
+		document.getElementById("casab").innerHTML = typeof auto;
+	</script>
+</body>
+</html>

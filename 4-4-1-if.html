@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>Estructuras de control: IF/SI</title>
+</head>
+<body>
+  <p>Uso básico de la estructura de control IF por valor verdadero</p>
+
+  <script type="text/javascript">
+  // definimos dos variables numéricas y les asignamos valores
+  // revisemos operadores de comparacióno
+  // repasamos operadores lógicos AND y OR
+  var numero1 = 7
+  var numero2 = 8
+  // comparamos las dos variables con el operador menor-igual
+  if (numero1 <= numero2) {
+    alert("1.- la primer variable es menor o igual que la segunda");
+  }
+
+  // determinamos si la primera variable es positiva
+  if(numero1 >= 0) {
+    alert("2.- la primer variable es positiva");
+  }
+
+  // determinamos si la primer variable menor que cero o distinta de 0
+  // recordamos || es el operador lógio OR
+  // recordemos que el operador lógico AND es &&
+  if(numero1 < 0 || numero1 != 0) {
+    alert("3.- la primer variable es negativa o distinta de cero");
+  }
+
+  // incrementamos la primer variable y verficamos si es menor que la segunda
+  if(++numero1 == numero2) {
+    alert("4.- Incrementar en 1 unidad el valor de primer variable no lo hace igual que la segunda");
+  }
+
+  </script>
+
+</body>
+</html>

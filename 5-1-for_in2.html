@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>LOOP</title>
+</head>
+<body>
+	<p id="curso">parrafo</p>
+
+	<script type="text/javascript">
+		const persona = ['Juan', 'José', 'Alejandra', 'Carolina', 'Héctor'];
+		let t="";
+
+		for (let x in persona) {
+			t += persona[x] + "<br>";
+		}
+
+		document.getElementById("curso").innerHTML = t;
+	</script>
+</body>
+</html>

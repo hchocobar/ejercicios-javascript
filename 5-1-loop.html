@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>LOOP</title>
+</head>
+<body>
+	<p id="curso"></p>
+	<script type="text/javascript">
+		var auto=["FORD", "CHEVROLET", "BMW", "FIAT", "PEUGEOT"];
+		var dato="";
+
+		for (var i = 0; i <= auto.length; i++) {
+			dato += auto[i] + "<br>";
+		}
+
+		document.getElementById("curso").innerHTML = dato;
+	</script>
+
+</body>
+</html>

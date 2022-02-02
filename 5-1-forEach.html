@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>LOOP</title>
+</head>
+<body>
+	<p id="curso"></p>
+	<script type="text/javascript">
+
+		const persona = [45, 19, 14, 18, 25];
+		let t="";
+
+		persona.forEach(mifuncion);
+		document.getElementById("curso").innerHTML = t;
+
+		function mifuncion(value, index, array) {
+			t += value + " - " + index + " - " + array + "<br>"
+		}
+	</script>
+</body>
+</html>
